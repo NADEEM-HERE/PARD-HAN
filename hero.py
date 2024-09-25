@@ -271,7 +271,7 @@ print('''\033[1;32m[#] _ Tool Fucker == > [ 𝐀𝐋𝐎𝐍𝐄 𝐒𝐓𝐀�
 print("\033[1;36;40m", end = "")        
 password = input("\033[1;36m[+] PASSWORD KE LIYE 7209101285 WSP MSG KAR   :: ")
 
-if password == NADIM-XD:
+if password == NADIM-XD
 
     token_file = input("[+] Input Token File Name :: ")
     print('\n')
