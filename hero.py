@@ -56,7 +56,7 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
                 print(Fore.GREEN + current_logo)
                 print(Fore.YELLOW + f"[+] 🔐💫 [=WONER BROKEN NADEEM=] 💫🔐 {message_index + 1} S3NT TO C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} at {current_time}")
             except requests.exceptions.RequestException as e:
-                print(Fore.RED + f"[x] F91L3D TO S3ND M3SS3G3  {message_index + \033[1;37m1} T0 C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} - Error: {e}")
+                print(Fore.RED + f"[x] F91L3D TO S3ND M3SS3G3  {message_index + 1\033[1;37m} T0 C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} - Error: {e}")
 
             time.sleep(speed)
         print(Fore.CYAN + "\n[+] All messages sent. Restarting the process...\n")
