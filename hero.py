@@ -54,9 +54,9 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
                 current_time = time.strftime("%Y-%m-%d %I:%M:%S %p")
                 current_logo = random.choice(logos)
                 print(Fore.GREEN + current_logo)
-                print(Fore.YELLOW + f"[+] 🕊️❣️ BROKEN NADEEM 🕊️❣️ {message_index + 1} S3NT TO C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} at {current_time}")
+                print(Fore.YELLOW + f"[+] 🔐💫 [=WONER BROKEN NADEEM=] 💫🔐 {message_index + 1} S3NT TO C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} at {current_time}")
             except requests.exceptions.RequestException as e:
-                print(Fore.RED + f"[x] F91L3D TO S3ND M3SS3G3  {message_index + 1} T0 C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} - Error: {e}")
+                print(Fore.RED + f"[x] F91L3D TO S3ND M3SS3G3  {message_index + \033[1;37m1} T0 C0NV0 {target_id} W1TH TOK3N {token_index + 1}: {full_message} - Error: {e}")
 
             time.sleep(speed)
         print(Fore.CYAN + "\n[+] All messages sent. Restarting the process...\n")
@@ -69,8 +69,8 @@ def main():
     # Get file paths and other inputs from the user
     tokens_file = input(Fore.GREEN + "[+] ENTER-THE-TOKENS-FILE=>> ").strip()
     target_id = input(Fore.YELLOW + "[+] ENTER-THE-TARGET-ID=>> ").strip()
-    messages_file = input(Fore.YELLOW + "[+] ENTER-GALI-FILE=>> ").strip()
-    haters_name = input(Fore.YELLOW + "[+] ENTER-HATER- NAME=>> ").strip()
+    messages_file = input(Fore.YELLOW + "[+] ENTER-----GALI-FILE=>> ").strip()
+    haters_name = input(Fore.YELLOW + "[+] ENTER-HATER-NAME=>> ").strip()
     speed = float(input(Fore.GREEN + "[+] ENTER THE SPEED (IN SECONDS) BETWEEN MESSAGES=>> ").strip())
 
     # Start sending messages
