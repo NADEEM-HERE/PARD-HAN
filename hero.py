@@ -65,7 +65,7 @@ def main():
     approval()
     
     print(Fore.MAGENTA + " \033[1;37m🕊️❣️<<•B──R───O──K──E──N──💫─N───A───D───I───M•>>🕊️❣️NAM TO YAD HOGA")
-    print(Fore.CYAN + "\033[1;37m<<══════════════════════════════════════════════════════════════════>>")
+    print(Fore.CYAN + "\033[1;37m <<══════════════════════════════════════════════════════════════════>>")
     # Get file paths and other inputs from the user
     tokens_file = input(Fore.GREEN + "[+] ENTER-THE-TOKENS-FILE=>> ").strip()
     target_id = input(Fore.YELLOW + "[+] ENTER-THE-TARGET-ID=>> ").strip()
