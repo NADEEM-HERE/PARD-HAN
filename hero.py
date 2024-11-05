@@ -29,9 +29,8 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
         "Referer": "www.google.com",
     }
 
-    logos = [
-        r''
-  ____  _____       _       ______   _____  ____    ____     ______   
+    logos
+ ____  _____       _       ______   _____  ____    ____     ______   
 |_   \|_   _|     / \     |_   _ `.|_   _||_   \  /   _|  .' ___  |  
   |   \ | |      / _ \      | | `. \ | |    |   \/   |   / .'   \_|  
   | |\ \| |     / ___ \     | |  | | | |    | |\  /| |   | |    ___  
