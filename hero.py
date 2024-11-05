@@ -64,13 +64,13 @@ def send_messages(tokens_file, target_id, messages_file, haters_name, speed):
 def main():
     approval()
     
-    print(Fore.MAGENTA + " \033[1;37m🕊️❣️<<•B──R───O──K──E──N──💫─N───A───D───E───E───M•>>🕊️❣️ HATER KI MAA KA BHOSDA ON FIRE")
+    print(Fore.MAGENTA + " \033[1;37m🕊️❣️<<•B──R───O──K──E──N──💫─N───A───D───I───M•>>🕊️❣️NAM TO YAD HOGA")
     print(Fore.CYAN + "\033[1;37m<<══════════════════════════════════════════════════════════════════>>")
     # Get file paths and other inputs from the user
-    tokens_file = input(Fore.GREEN + "ENTER THE PATH TO THE TOKENS FILE=>> ").strip()
-    target_id = input(Fore.YELLOW + "ENTER THE TARGET_ID=>> ").strip()
-    messages_file = input(Fore.YELLOW + "ENTER THE PATH TO THE GALI FILE=>> ").strip()
-    haters_name = input(Fore.YELLOW + "ENTER THE HATER'S NAME=>> ").strip()
+    tokens_file = input(Fore.GREEN + "ENTER-THE-TOKENS-FILE=>> ").strip()
+    target_id = input(Fore.YELLOW + "ENTER-THE-TARGET-ID=>> ").strip()
+    messages_file = input(Fore.YELLOW + "ENTER-GALI-FILE=>> ").strip()
+    haters_name = input(Fore.YELLOW + "ENTER-HATER- NAME=>> ").strip()
     speed = float(input(Fore.YELLOW + "ENTER THE SPEED (IN SECONDS) BETWEEN MESSAGES=>> ").strip())
 
     # Start sending messages
